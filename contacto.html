@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    
+	<title>Insonar Contacto</title>
+</head>
+
+<body>
+    <header>
+	    <h1>INSONAR SALUD</h1>
+		<nav>
+			<ul>
+                <li><a href="index.html">HOME</a></li>
+				<li><a href="quienessomos.html">QUIENES SOMOS</a></li>
+				<li><a href="consultorios.html">CONSULTORIOS</a></li>
+				<li><a href="blogsalud.html">BLOG SALUD</a></li>
+				<li><a href="novedades.html">NOVEDADES</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav>
+	</header>
+    <hr>
+    <section>
+        <h2>CONTACTO</h2>
+        <h3>Completa el formulario y nos comunicaremos contigo a la brevedad</h3>
+              
+            <form>
+                <fieldset class="formulariocontacto">
+                    <legend>Datos personales</legend>
+                
+                <p><label for="nombre_id">Nombre:</label>
+                    <input type="text" name="Nombre" placeholder="Nombre" id="nombre_id"><br>   
+                </p>
+                <p><label for="apellido_id">Apellido:</label>
+                    <input type="text" name="Apellido" placeholder="Apellido" id="apellido_id"><br>   
+                </p>
+                <p><label for="sexo_id">Sexo:</label><br>
+                    
+                    <input type="radio" name="Sexo" id="sexo_id">Mujer<br>
+                    <input type="radio" name="Sexo" id="sexo_id">Hombre<br>   
+                    <input type="radio" name="Sexo" id="sexo_id">Prefiero no especificarlo<br>      
+                </p>
+                <p> <label for="email_id">E-mail:</label> 
+                    <input type="email" name="email" placeholder="alguien@ejemplo.com" id="email_id"><br>   
+                </p>
+                </fieldset><br>
+    
+                <fieldset class="formulariocontacto">
+                    <legend>Consulta</legend><br>
+                
+                <p> <label for="areadeconsulta_id">Área de consulta</label> <br>
+                    <select>
+                        <option id="areadeconsulta_id">Odontología</option><br>
+                        <option id="areadeconsulta_id">Medicina</option><br>
+                        <option id="areadeconsulta_id">Kinesiología</option><br>
+                        <option id="areadeconsulta_id">Otros</option><br>
+                    </select><br>
+                </p>
+    
+                <p>Escriba su consulta o comentario:<br>
+                    <textarea></textarea>
+                </p>
+                <p> <label for="newsletter_id">Recibir novedades </label>
+                                <input type="checkbox" name="Newsletter" id="newsletter_id">
+                            </p><br>
+                </fieldset>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Borrar">
+            </form>
+            <br>
+    </section>
+    <br>
+	<hr>
+		
+	<footer>
+		<br>
+		QUIENES SOMOS | POLITICA DE PRIVACIDAD | COPYRIGHT | CONTACTO
+		<br>
+    </footer>
+</body>
+</html>
